@@ -1,0 +1,167 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    width: 1710px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 90px;
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+}
+
+span {
+    color: #FFD700;
+}
+
+p {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 30px;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .container{
+    height: 50px;
+    background-color: #404146;
+    display: flex;
+}
+
+.header-logo {
+	float: left;
+	color: white;
+	padding: 15px 25px;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.header-list li{
+    font-size: 15px;
+    float: left;
+	color: white;
+	padding: 15px 25px;
+    list-style: none;
+}
+
+.about-wrapper {
+    height: 200px;
+    padding: 90px;
+    background-color: #F4F4F4;
+    text-align: center;
+
+}
+h3 {
+  text-align: center;
+  padding: 20px;
+}
+
+.about-wrapper p {
+    width: 90%;
+    font-size: 15px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.proyek-wrapper {
+    height: 450px;
+	margin-top: 50px;
+
+}
+
+.proyek-image p {
+    font-size: 15px;
+}
+
+.proyek-image img {
+    width: 250px;
+}
+
+.proyek-image {
+    float: left;
+    margin: 0 95px;
+}
+
+.contact-wrapper {
+    height: 400px;
+    background-color: #F4F4F4;
+}
+.contact-wrapper h3{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    margin: auto;
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    height: 40px;
+    padding: 0 15px;
+    border: 0
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    padding: 15px 15px;
+    border: 0;
+}
+
+.btn {
+    height: 40px;
+    background-color: #F7E989;
+    border-radius: 8px;
+    width: 50%;
+    margin: 20px auto;
+    padding-top: 15px;
+}
+
+footer {
+    height: 100px;
+    padding: 20px;
+  background-color: #333;
+}
+.footer-logo {
+  float: left;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 8px;
+  padding: 10px 15px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li{
+    font-size: 15px;
+  list-style: none;
+  color: white;
+  padding-bottom: 10px;
+}
