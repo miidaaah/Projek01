@@ -5,13 +5,13 @@
     font-family: Poppins, sans-serif;
 }
 
-.container {
-    width: 1710px;
+/*.container {
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-}
+}*/
 
 h1 {
     font-size: 90px;
@@ -39,10 +39,9 @@ img {
     margin-right: auto;
 }
 
-header .container{
-    height: 50px;
+header{
+    height: 55px;
     background-color: #404146;
-    display: flex;
 }
 
 .header-logo {
@@ -164,4 +163,28 @@ footer {
   list-style: none;
   color: white;
   padding-bottom: 10px;
+}
+
+.header-logo:hover {
+    background-color: #808080;
+}
+
+.header-list li:hover {
+    background-color: #808080;
+}
+
+.btn:hover {
+    background-color: #FFA500;
+}
+
+@media (max-width: 1000px ) {
+    .proyek-image {
+        width: 50%;
+    }
+}
+
+@media (max-width: 670px ) {
+    .proyek-image {
+        width: 100%;
+    }
 }
